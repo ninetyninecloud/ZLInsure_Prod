@@ -1,0 +1,21 @@
+;aiu;
+
+[Agent_1_2_3] ; 섹션명은 고유해야 하며(신규 버전마다 새 섹션) 최신이 위
+Name = SigmaAgent 0.3.15
+URL = https://github.com/ninetyninecloud/ZLInsure_Prod/releases/download/0.3.15/sigma_agent_v0.3.7.zip
+Size = 51585610
+SHA256 = F4BF4A6DB1FF517D9A4FAF9CEA89CC45E4B5F8014E5EF520CA9303CD9C64F6FB   ; 무결성 권장(또는 MD5)
+; 설치된지 판별(둘 중 하나 방식 사용)
+FilePath = [APPDIR]SigmaAgent.exe
+Version = 0.3.15
+
+; 실행 중 앱 자동 종료/재시작
+AutoCloseApplication = path:"[APPDIR]SigmaAgent.exe" window_prefix:"Clinic Agent" restart_always:"true" restart_commandline:""
+
+; EXE 업데이트일 경우에만 필요(Advanced Installer EXE면 자동 채워짐)
+; CommandLine = /silent /norestart
+
+; (선택) 릴리스 노트
+Description = 보안 패치 및 성능 향상
+Feature = 키오스크 프린팅 안정화
+BugFix = 재시작 누락 이슈 수정
