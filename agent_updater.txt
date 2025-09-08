@@ -1,6 +1,6 @@
 ;aiu;
 
-[Agent_1_2_3] ; 섹션명은 고유해야 하며(신규 버전마다 새 섹션) 최신이 위
+[SigmaAgent_0_3_15] ; 섹션명은 고유해야 하며(신규 버전마다 새 섹션) 최신이 위
 Name = SigmaAgent 0.3.15
 URL = https://github.com/ninetyninecloud/ZLInsure_Prod/releases/download/0.3.15/sigma_agent_v0.3.7.zip
 Size = 51585610
