@@ -10,7 +10,7 @@ FilePath = [APPDIR]SigmaAgent.exe
 Version = 0.3.16
 
 ; 실행 중 앱 자동 종료/재시작
-AutoCloseApplication = path:"[APPDIR]SigmaAgent.exe" window_prefix:"Clinic Agent" restart_always:"true" restart_commandline:""
+AutoCloseApplication = path:"[APPDIR]SigmaAgent.exe" restart_always:"true" restart_commandline:"\"[APPDIR]SigmaAgent.exe\""
 
 ; EXE 업데이트일 경우에만 필요(Advanced Installer EXE면 자동 채워짐)
 ; CommandLine = /silent /norestart
