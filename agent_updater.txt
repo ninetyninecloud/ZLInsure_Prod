@@ -1,13 +1,13 @@
 ;aiu;
 
-[SigmaAgent_0_3_15] ; 섹션명은 고유해야 하며(신규 버전마다 새 섹션) 최신이 위
-Name = SigmaAgent 0.3.15
-URL = https://github.com/ninetyninecloud/ZLInsure_Prod/releases/download/0.3.15/sigma_agent_v0.3.7.zip
-Size = 51585610
-SHA256 = F4BF4A6DB1FF517D9A4FAF9CEA89CC45E4B5F8014E5EF520CA9303CD9C64F6FB   ; 무결성 권장(또는 MD5)
+[SigmaAgent_0_3_16] ; 섹션명은 고유해야 하며(신규 버전마다 새 섹션) 최신이 위
+Name = SigmaAgent 0.3.16
+URL = https://github.com/ninetyninecloud/ZLInsure_Prod/releases/download/0.3.16/Setup_SigmaAgent_0.3.16.msi
+Size = 56745472
+SHA256 = 93BE2A9C009EFA9D5E0568C5EBD40F3970AB40541069B784D39542A3134FBD2E
 ; 설치된지 판별(둘 중 하나 방식 사용)
 FilePath = [APPDIR]SigmaAgent.exe
-Version = 0.3.15
+Version = 0.3.16
 
 ; 실행 중 앱 자동 종료/재시작
 AutoCloseApplication = path:"[APPDIR]SigmaAgent.exe" window_prefix:"Clinic Agent" restart_always:"true" restart_commandline:""
